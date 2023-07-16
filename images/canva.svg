@@ -1,0 +1,31 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Canva Logomark">
+<g id="Canva Logomark_2">
+<path id="Element" d="M20 37.7778C29.8184 37.7778 37.7778 29.8184 37.7778 20C37.7778 10.1816 29.8184 2.22223 20 2.22223C10.1816 2.22223 2.22223 10.1816 2.22223 20C2.22223 29.8184 10.1816 37.7778 20 37.7778Z" fill="#7D2AE7"/>
+<path id="Element_2" d="M20 37.7778C29.8184 37.7778 37.7778 29.8184 37.7778 20C37.7778 10.1816 29.8184 2.22223 20 2.22223C10.1816 2.22223 2.22223 10.1816 2.22223 20C2.22223 29.8184 10.1816 37.7778 20 37.7778Z" fill="url(#paint0_radial_157_2251)"/>
+<path id="Element_3" d="M20 37.7778C29.8184 37.7778 37.7778 29.8184 37.7778 20C37.7778 10.1816 29.8184 2.22223 20 2.22223C10.1816 2.22223 2.22223 10.1816 2.22223 20C2.22223 29.8184 10.1816 37.7778 20 37.7778Z" fill="url(#paint1_radial_157_2251)"/>
+<path id="Element_4" d="M20 37.7778C29.8184 37.7778 37.7778 29.8184 37.7778 20C37.7778 10.1816 29.8184 2.22223 20 2.22223C10.1816 2.22223 2.22223 10.1816 2.22223 20C2.22223 29.8184 10.1816 37.7778 20 37.7778Z" fill="url(#paint2_radial_157_2251)"/>
+<path id="Element_5" d="M20 37.7778C29.8184 37.7778 37.7778 29.8184 37.7778 20C37.7778 10.1816 29.8184 2.22223 20 2.22223C10.1816 2.22223 2.22223 10.1816 2.22223 20C2.22223 29.8184 10.1816 37.7778 20 37.7778Z" fill="url(#paint3_radial_157_2251)"/>
+<path id="Element_6" d="M27.6749 23.647C27.5282 23.647 27.3991 23.7709 27.2647 24.0415C25.7475 27.1182 23.1268 29.2951 20.0942 29.2951C16.5877 29.2951 14.4162 26.1297 14.4162 21.7568C14.4162 14.3493 18.5434 10.0665 22.1685 10.0665C23.8625 10.0665 24.8969 11.131 24.8969 12.8251C24.8969 14.8356 23.7547 15.9002 23.7547 16.6092C23.7547 16.9275 23.9527 17.1203 24.3453 17.1203C25.9226 17.1203 27.7739 15.3078 27.7739 12.7473C27.7739 10.2646 25.6131 8.4397 21.9881 8.4397C15.9971 8.4397 10.6727 13.9939 10.6727 21.6789C10.6727 27.6276 14.0696 31.5585 19.3109 31.5585C24.8739 31.5585 28.0906 26.0236 28.0906 24.2271C28.0906 23.8293 27.8872 23.647 27.6749 23.647Z" fill="white"/>
+</g>
+</g>
+<defs>
+<radialGradient id="paint0_radial_157_2251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(9.09023 33.7359) rotate(-49.416) scale(27.4992)">
+<stop stop-color="#6420FF"/>
+<stop offset="1" stop-color="#6420FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint1_radial_157_2251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.635 6.26426) rotate(54.703) scale(31.0104)">
+<stop stop-color="#00C4CC"/>
+<stop offset="1" stop-color="#00C4CC" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint2_radial_157_2251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(9.09007 33.7357) rotate(-45.1954) scale(27.1663 12.4941)">
+<stop stop-color="#6420FF"/>
+<stop offset="1" stop-color="#6420FF" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="paint3_radial_157_2251" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(16.7626 7.01287) rotate(66.5198) scale(27.9927 46.894)">
+<stop stop-color="#00C4CC" stop-opacity="0.725916"/>
+<stop offset="0.0001" stop-color="#00C4CC"/>
+<stop offset="1" stop-color="#00C4CC" stop-opacity="0"/>
+</radialGradient>
+</defs>
+</svg>

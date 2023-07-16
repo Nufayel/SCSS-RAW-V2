@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCSS</title>
+
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <!-- FONT LINK -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- HEADER SECTION -->
+
+    <header class="header">
+        <section class="header-absolute-container">
+            <section class="header-container">
+                <div>
+                    <img class="header-img" src="/images/Secondary Logo.svg" alt="scss-logo">
+                </div>
+                <nav class="navbar">
+                    <ul class="nav-list">
+                        <li><a class="nav-element" href="#about-us">About Us</a></li>
+                        <li><a class="nav-element" href="#services">Services</a></li>
+                        <li><a class="nav-element" href="#works">Works</a></li>
+                        <button class="nav-button">Contact Us</button>
+                    </ul>
+                </nav>
+            </section>
+        </section>
+    </header>
+
+    <!-- OPENING SECTION -->
+
+    <section class="opening-container">
+            <video class="background-video" autoplay loop muted>
+                <source src="images/section-bg.mp4" type="video/mp4">
+            </video>
+            <h1 class="opening-header">Driven by <span class="h1-color">Purpose</span> <br> Led by <span class="h1-color">Design & Consulting</span></h1>
+            <p class="opening-para">A design & consulting studio based in CA & USA</p>
+            <button class="nav-button-section">
+                Learn More
+            </button>
+            <ul class="social-links">
+                <li>Follow Us</li>
+                <li><a class="social" href="">Linkedin</a></li>
+                <li><a class="social" href="">Instagram</a></li>
+            </ul>
+    </section>
+
+    <!-- SERVICES SECTION -->
+
+    <section class="services" id="services">
+        <div class="services-container">
+            <h2 class="services-header-outer">Services</h2>
+            <p class="services-para-outer">Let us help you grow your business with our services tailor to your needs.</p>
+            <div class="services-container-inner">
+                <div class="services-card" onclick="location.href='';">
+                    <img src="/images/settings-1.svg" alt="settings">
+                    <div class="paragraph-container">
+                        <h3 class="services-header-inner">Customized <br> CRP & ERP</h3>
+                        <p class="services-para-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                    </div>
+                    <div class="read-more-container">
+                        <div class="arrow-container">
+                            <img src="/images/services-button.svg" alt="arrow">
+                        </div>
+                        <p class="services-read-more">Read More</p>
+                    </div>
+                </div>
+                <div class="services-card" onclick="location.href='';">
+                    <img src="/images/monitor-1.svg" alt="monitor">
+                    <div class="paragraph-container">
+                        <h3 class="services-header-inner">Website <br> Solutions</h3>
+                        <p class="services-para-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                    </div>
+                    <div class="read-more-container">
+                        <div class="arrow-container">
+                            <img src="/images/services-button.svg" alt="arrow">
+                        </div>
+                        <p class="services-read-more">Read More</p>
+                    </div>
+                </div>
+                <div class="services-card" onclick="location.href='';">
+                    <img src="/images/file-1.svg" alt="file">
+                    <div class="paragraph-container">
+                        <h3 class="services-header-inner">Higher Education <br> Consulting</h3>
+                        <p class="services-para-inner">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                        </p>
+                    </div>
+                    <div class="read-more-container">
+                        <div class="arrow-container">
+                            <img src="/images/services-button.svg" alt="arrow">
+                        </div>
+                        <p class="services-read-more">Read More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOGO SLIDER -->
+
+    <section class="logo-slider">
+        <div class="logo-slider-track">
+            <div class="slider">
+                <img src="/images/amazon.svg" alt="amazon">
+            </div>
+            <div class="slider">
+                <img src="/images/microsoft.svg" alt="microsoft">
+            </div>
+            <div class="slider">
+                <img src="/images/ibm.svg" alt="ibm">
+            </div>
+            <div class="slider">
+                <img src="/images/verizon.svg" alt="verizon">
+            </div>
+            <div class="slider">
+                <img src="/images/samsung.svg" alt="samsung">
+            </div>
+            <div class="slider">
+                <img src="/images/foster.svg" alt="forster">
+            </div>
+            <div class="slider">
+                <img src="/images/amazon.svg" alt="amazon">
+            </div>
+            <div class="slider">
+                <img src="/images/microsoft.svg" alt="microsoft">
+            </div>
+            <div class="slider">
+                <img src="/images/ibm.svg" alt="ibm">
+            </div>
+            <div class="slider">
+                <img src="/images/verizon.svg" alt="verizon">
+            </div>
+            <div class="slider">
+                <img src="/images/samsung.svg" alt="samsung">
+            </div>
+            <div class="slider">
+                <img src="/images/foster.svg" alt="forster">
+            </div>                
+        </div>
+    </section>
+
+    <!-- WORKS SECTION -->
+
+    <section class="works" id="works">
+        <div class="works-left-column">
+            <a href="">
+                <div class="works-one">
+                    <div class="inner-works-one">
+                        <h4 class="works-header">Works</h4>
+                    </div>
+                    <div class="inner-works-two">
+                        <p class="works-para-one">Let's create amazing solutions together.</p>
+                        <div class="inner-works-one-button">
+                            <img src="/images/services-button.svg" alt="arrow">
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="works-scale">
+                    <img src="/images/works-monitor-1.svg" alt="monitor-1">
+                    <div class="absolute-works-header">
+                        <h5 class="project-name">Project Name</h5>
+                        <ul class="inner-works-list">
+                            <li class="inner-works-point">Consulting</li>
+                            <li>Department</li>
+                        </ul>
+                    </div>    
+                </div>
+            </a>
+            <a href="">
+                <div class="works-scale">
+                    <img src="/images/works-monitor-2.svg" alt="monitor-2">
+                    <div class="absolute-works-header-2">
+                        <h5 class="project-name">ERP for Bangladesh Army</h5>
+                        <ul class="inner-works-list">
+                            <li class="inner-works-point">Consulting</li>
+                            <li>Department</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="works-right-column">
+            <a href="">
+                <div class="works-scale">
+                    <img src="/images/works-monitor-2.svg" alt="monitor-2">
+                    <div class="absolute-works-header-2">
+                        <h5 class="project-name">ERP for Bangladesh Army</h5>
+                        <ul class="inner-works-list">
+                            <li class="inner-works-point">Consulting</li>
+                            <li>Department</li>
+                        </ul>
+                    </div>
+                </div>
+            </a>
+            <a href="">
+                <div class="works-scale">
+                    <img src="/images/works-monitor-3.svg" alt="monitor-1">
+                    <div class="absolute-works-header">
+                        <h5 class="project-name">Project Name</h5>
+                        <ul class="inner-works-list">
+                            <li class="inner-works-point">Consulting</li>
+                            <li>Department</li>
+                        </ul>
+                    </div>    
+                </div>
+            </a>
+            <a href="">
+                <div class="works-scale">
+                    <img src="/images/works-monitor-1.svg" alt="monitor-1">
+                    <div class="absolute-works-header">
+                        <h5 class="project-name">Project Name</h5>
+                        <ul class="inner-works-list">
+                            <li class="inner-works-point">Consulting</li>
+                            <li>Department</li>
+                        </ul>
+                    </div>    
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <!-- PROCESS SECTION -->
+
+    <section class="process">
+        <div class="process-container">
+            <h6 class="process-header">
+                It’s all about process & people
+            </h6>
+            <div class="process-para-container">
+                <p class="process-para">
+                    Don’t let your business be left behind in the digital revolution. Unlock its full potential with our expert consulting services. Contact us today to embark on your digital transformation journey.
+                </p>
+            </div>
+            <button class="process-button">
+                Learn About Us
+            </button>
+        </div>
+    </section>
+
+    <!-- TECHNOLOGIES SECTION -->
+    
+    <section class="tech">
+        <div class="tech-container">
+            <div class="tech-tab">
+                <h6 class="tab-header">
+                    Our most used <br> technologies
+                </h6>
+                <div class="tab-sections">
+                    <div>Design</div>
+                    <div>Business</div>
+                    <div>Development</div>
+                </div>
+                <div class="tab-para-container">
+                    <p class="tab-para">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="tab-apps">
+                <div class="tab-card">
+                    <div class="card-logo-container">
+                        <img src="/images/figma.svg" alt="figma">
+                    </div>
+                    <div class="card-text-container">
+                        <p>Figma</p>
+                    </div>
+                </div>
+                <div class="tab-card">
+                    <div class="card-logo-container">
+                        <img src="/images/sketch.svg" alt="sketch">
+                    </div>
+                    <div class="card-text-container">
+                        <p>Sketch</p>
+                    </div>
+                </div>
+                <div class="tab-card"> 
+                    <div class="card-logo-container">
+                        <img src="/images/illustrator.svg" alt="sketch">
+                    </div>
+                    <div class="card-text-container">
+                        <p>Illustrator</p>
+                    </div>
+                </div>
+                <div class="tab-card">
+                    <div class="card-logo-container">
+                        <img src="/images/photoshop.svg" alt="photoshop">
+                    </div>
+                    <div class="card-text-container">
+                        <p>Photoshop</p>
+                    </div>
+                </div>
+                <div class="tab-card">
+                    <div class="card-logo-container">
+                        <img src="/images/canva.svg" alt="canva">
+                    </div>
+                    <div class="card-text-container">
+                        <p>Canva Designer</p>
+                    </div>
+                </div>
+                <div class="tab-card">
+                    <div class="card-logo-container">
+                        <img src="/images/adobe-xd.svg" alt="adobe-xd">
+                    </div>
+                    <div class="card-text-container">
+                        <p>Adobe XD</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM SECTION -->
+
+    <section class="team" id="about-us">
+        <div class="team-container">
+            <div class="team-intro-container">
+                <div class="team-header-container">
+                    <h6 class="team-header">
+                        Meet the Team
+                    </h6>
+                </div>
+                <div class="team-para-container">
+                    <p class="team-para">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="team-card-container">
+                <div class="team-card">
+                    <div class="team-image">
+                        <img src="/images/shikky.jpg" alt="shikky">
+                    </div>
+                    <h6>Farhan Sikder</h6>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-image-2">
+                        <img src="/images/farah.jpg" alt="farah">
+                    </div>
+                    <h6>Farah Hoque</h6>
+                    <p>Co-Founder</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-image">
+                        <img class="yeamin" src="/images/ishmam.jpg" alt="yeamin">
+                    </div>
+                    <h6>Yeamin Ahmed</h6>
+                    <p>Business Analyst</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-first">
+                <div class="footer-first-left-container">
+                    <img src="/images/footer-logo-1.svg" alt="scss">
+                    <div class="footer-first-left-socials">
+                        <a href="">
+                            <img src="/images/footer-linkedin-logo.svg" alt="linkedin">
+                        </a>
+                        <a href="">
+                            <img src="/images/footer-twitter-logo.svg" alt="twitter">
+                        </a>
+                        <a href="">
+                            <img src="/images/footer-instagram-logo.svg" alt="instagram">
+                        </a>
+                        <a href="">
+                            <img src="/images/footer-facebook-logo.svg" alt="facebook">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-first-right-container">
+                    <div class="footer-info-1">
+                        <p>Sitemap</p>
+                        <div class="footer-info-details">
+                            <a href="">About Us</a>
+                            <a href="">Works</a>
+                            <a href="">Our Team</a>
+                            <a href="">Contact</a>
+                        </div>
+                    </div>
+                    <div class="footer-info-1">
+                        <p>Service</p>
+                        <div class="footer-info-details">
+                            <p>UI/UX Design</p>
+                            <p>Web Development</p>
+                            <p>Digital Marketing</p>
+                            <p>Financial Service</p>
+                            <p>Content Marketing</p>
+                        </div>
+                    </div>
+                    <div class="footer-info-1">
+                        <p>Contact</p>
+                        <div class="footer-info-details">
+                            <div class="footer-contact">
+                                <img src="/images/footer-phone.svg" alt="">
+                                <p>(406) 555-0120</p>
+                            </div>
+                            <div class="footer-contact">
+                                <img src="/images/footer-mail.svg" alt="">
+                                <p>information.scss@gmail.com</p>
+                            </div>
+                            <div class="footer-contact-2">
+                                <img src="/images/footer-location.svg" alt="">
+                                <p>Nam Village, Road 29, Block k, <br> Banani-11, Dhaka-1212, <br> Bangladesh</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-second">
+                <p>© 2023 All rights reserved, Sikder Consulting & Software Solutions</p>
+                <div class="footer-second-right">
+                    <p>Privacy Policy</p>
+                    <p>Terms of Service</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
